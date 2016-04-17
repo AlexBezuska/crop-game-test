@@ -1,0 +1,309 @@
+{
+  "catFood1": {
+    "name": "cat-food1",
+    "catFood": true,
+    "position": {
+      "x": 0,
+      "y": 1400
+    },
+    "image": {
+      "name": "feed-catFoodPile1.png"
+    }
+  },
+  "catFood2": {
+    "name": "cat-food2",
+    "catFood": true,
+    "position": {
+      "x": 0,
+      "y": 1200
+    },
+    "image": {
+      "name": "feed-catFoodPile2.png"
+    }
+  },
+  "catFood3": {
+    "name": "cat-food3",
+    "catFood": true,
+    "position": {
+      "x": 0,
+      "y": 500
+    },
+    "image": {
+      "name": "feed-catFoodPile3.png"
+    }
+  },
+  "earWax": {
+    "name": "ear-wax",
+    "position": {
+      "x": 0,
+      "y": 1200
+    },
+    "zindex": {
+      "zindex": 5
+    },
+    "image": {
+      "name": "earwax.png"
+    }
+  },
+  "timer": {
+    "name": "timer",
+    "position": {
+      "x": 654,
+      "y": 10
+    },
+    "size": {
+      "width": 228,
+      "height": 246
+    },
+    "image":{
+      "name": "timer"
+    },
+    "timers": {
+      "changeTimer": {
+        "running": true,
+        "time": 0,
+        "max": 1,
+        "script": "./scripts/change-timer"
+      }
+    }
+  },
+  "bed-cat-1": {
+    "name": "bed-cat-1",
+    "position": {
+      "x": 825,
+      "y": 1118
+    },
+    "zindex": {
+      "zindex": 3
+    },
+    "size": {
+      "width": 408,
+      "height": 281
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "bed-cat-1"
+    }
+  },
+  "bed-cat-2": {
+    "name": "bed-cat-2",
+    "position": {
+      "x": 990,
+      "y": 818
+    },
+    "zindex": {
+      "zindex": 3
+    },
+    "size": {
+      "width": 218,
+      "height": 322
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "bed-cat-2"
+    }
+  },
+  "bed-cat-3": {
+    "name": "bed-cat-3",
+    "position": {
+      "x": 408,
+      "y": 760
+    },
+    "zindex": {
+      "zindex": 3
+    },
+    "size": {
+      "width": 226,
+      "height": 267
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "bed-cat-3"
+    }
+  },
+  "bed-hole": {
+    "name": "bg",
+    "position": {
+      "x": 0,
+      "y": 0
+    },
+    "zindex": {
+      "zindex": 4
+    },
+    "image": {
+      "name": "makeBed-background-hole.png"
+    }
+  },
+  "eyes": {
+    "name": "eyes",
+    "position": {
+      "x": 650,
+      "y": 1200
+    },
+    "zindex": {
+      "zindex": 5
+    },
+    "image": {
+      "name": "eyes.png"
+    }
+  },
+  "pupils": {
+    "name": "pupils",
+    "position": {
+      "x": 720,
+      "y": 1240
+    },
+    "zindex": {
+      "zindex": 5
+    },
+    "image": {
+      "name": "pupils.png"
+    }
+  },
+  "eyelashes": {
+    "name": "eyelashes",
+    "position": {
+      "x": 650,
+      "y": 1200
+    },
+    "size": {
+      "width": 246,
+      "height": 88
+    },
+    "zindex": {
+      "zindex": 6
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "eyelashes"
+    }
+  },
+  "life1": {
+    "name": "life1",
+    "life": true,
+    "position": {
+      "x": 70,
+      "y": 20
+    },
+    "size": {
+      "width": 156,
+      "height": 249
+    },
+    "zindex":{
+      "zindex": 5
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "life"
+    }
+  },
+  "life2": {
+    "name": "life2",
+    "life": true,
+    "position": {
+      "x": 306,
+      "y": 20
+    },
+    "size": {
+      "width": 156,
+      "height": 249
+    },
+    "zindex":{
+      "zindex": 5
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "life"
+    }
+  },
+  "life3": {
+    "name": "life3",
+    "life": true,
+    "position": {
+      "x": 1110,
+      "y": 20
+    },
+    "size": {
+      "width": 156,
+      "height": 249
+    },
+    "zindex":{
+      "zindex": 5
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "life"
+    }
+  },
+  "life4": {
+    "name": "life4",
+    "life": true,
+    "position": {
+      "x": 1340,
+      "y": 20
+    },
+    "size": {
+      "width": 156,
+      "height": 249
+    },
+    "zindex":{
+      "zindex": 5
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "life"
+    }
+  },
+  "alarm-melted": {
+    "name": "alarm-melted",
+    "position": {
+      "x": 200,
+      "y": 650
+    },
+    "image": {
+      "name": "alarm-clock-melted.png"
+    }
+  },
+  "buttons-flashing": {
+    "name": "buttons-flashing",
+    "position": {
+      "x": 270,
+      "y": 750
+    },
+    "size": {
+      "width": 1009,
+      "height": 401
+    },
+    "animation": {
+      "time": 0,
+      "frame": 0,
+      "loop": true,
+      "speed": 1,
+      "name": "buttons-flashing"
+    }
+  }
+}
